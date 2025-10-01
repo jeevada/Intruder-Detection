@@ -18,8 +18,8 @@ This project is a real-time surveillance system that uses computer vision to aut
 
 1.  **Clone the repository:**
     ```bash
-    git clone [your-repo-link]
-    cd IntruderDetection
+    git clone https://github.com/jeevada/Intruder-Detection.git
+    cd Intruder-Detection
     ```
 
 2.  **Create and activate a virtual environment:**
