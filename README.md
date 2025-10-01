@@ -45,3 +45,12 @@ Before training, you must download the INRIA Person Dataset. Place the extracted
 Run the training script. This will train the model on the dataset and save the weights as `person_detector_model.pth`.
 ```bash
 python train.py
+```
+
+### 3. Run the Surveillance System
+Once the model is trained, run the live surveillance application.
+```bash
+python surveillance.py
+```
+
+Press 'q' to exit the application.
