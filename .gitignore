@@ -1,0 +1,62 @@
+# ==============================================================================
+# Python Virtual Environments
+# ==============================================================================
+# Ignore the virtual environment folder to avoid committing library files.
+/venv/
+/.venv/
+/env/
+/.env/
+
+# ==============================================================================
+# Dataset and Model Files
+# ==============================================================================
+# Ignore the large dataset folder. The README should link to the data source.
+/INRIAPerson/
+
+# Ignore any compressed dataset files.
+*.zip
+*.tar
+*.tar.gz
+
+# Ignore trained model files. These are large binary artifacts.
+# They should be shared via cloud storage (like Google Drive) if needed.
+*.pth
+*.pt
+
+# ==============================================================================
+# Python Cache and Compiled Files
+# ==============================================================================
+# Ignore Python's bytecode cache.
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore egg info files.
+*.egg-info/
+
+# Ignore distribution and build artifacts.
+/build/
+/dist/
+/downloads/
+
+# ==============================================================================
+# IDE and Editor Configuration
+# ==============================================================================
+# Ignore Visual Studio Code configuration.
+.vscode/
+
+# Ignore PyCharm configuration.
+.idea/
+
+# Ignore Jupyter/Colab notebook checkpoints.
+.ipynb_checkpoints/
+
+# ==============================================================================
+# Operating System Specific Files
+# ==============================================================================
+# Ignore macOS specific files.
+.DS_Store
+
+# Ignore Windows specific files (thumbnail cache).
+Thumbs.db
